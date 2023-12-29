@@ -11,6 +11,8 @@ import './App.css';
 //import FunctionalCounter from './components/FunctionalCounter';
 //import ConditionalComponent from './components/ConditionalComponent';
 import Product from './components/Product';
+import Form from './components/Form';
+import Todo from './components/Todo';
 
 function App() {
   return (
@@ -30,7 +32,9 @@ function App() {
 
     {/* <ClassEvent></ClassEvent> */}
     {/* <ConditionalComponent></ConditionalComponent> */}
-    <Product></Product>
+    {/* <Product></Product> */}
+    {/* <Form></Form> */}
+    <Todo></Todo>
     </div>
   );
 }
