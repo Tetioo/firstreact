@@ -9,7 +9,8 @@
 //import Counter from './components/Counter';
 import './App.css';
 //import FunctionalCounter from './components/FunctionalCounter';
-import ConditionalComponent from './components/ConditionalComponent';
+//import ConditionalComponent from './components/ConditionalComponent';
+import Product from './components/Product';
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
     {/* <Resume name="Rotich"></Resume> */}
 
     {/* <ClassEvent></ClassEvent> */}
-    <ConditionalComponent></ConditionalComponent>
+    {/* <ConditionalComponent></ConditionalComponent> */}
+    <Product></Product>
     </div>
   );
 }
